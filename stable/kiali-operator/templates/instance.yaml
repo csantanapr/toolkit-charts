@@ -3,6 +3,9 @@
 apiVersion: kiali.io/v1alpha1
 kind: Kiali
 metadata:
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "100"
   name: kiali
   namespace: {{ $namespace }}
 spec:
