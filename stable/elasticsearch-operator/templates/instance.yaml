@@ -3,6 +3,9 @@
 apiVersion: logging.openshift.io/v1
 kind: Elasticsearch
 metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "300"
+    helm.sh/hook-weight: "300"
   name: elasticsearch
   namespace: {{ $namespace }}
 spec:
