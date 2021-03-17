@@ -5,6 +5,9 @@
 apiVersion: v1
 kind: Namespace
 metadata:
+  annotations:
+    helm.sh/hook: pre-install
+    helm.sh/hook-weight: "170"
   name: {{ $namespace }}
 ---
 {{- end -}}
@@ -15,6 +18,9 @@ metadata:
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
+  annotation:
+    helm.sh/hook: pre-install
+    helm.sh/hook-weight: "180"
   name: {{ $name }}
   namespace: {{ $namespace }}
 spec: {}
