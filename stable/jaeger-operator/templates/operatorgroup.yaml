@@ -2,9 +2,7 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  annotations:
-    olm.providedAPIs: Jaeger.v1.jaegertracing.io
-  name: {{ printf "%s-jaeger" (include "operator.operator-namespace" .) }}
+  name: {{ printf "%s-operatorgroup" (include "operator.operator-namespace" .) }}
   namespace: {{ include "operator.operator-namespace" . }}
 spec: {}
 {{- end -}}

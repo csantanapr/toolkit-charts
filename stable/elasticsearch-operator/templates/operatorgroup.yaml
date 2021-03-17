@@ -2,11 +2,7 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  annotations:
-    argocd.argoproj.io/sync-wave: "100"
-    helm.sh/hook-weight: "100"
-    olm.providedAPIs: Elasticsearch.v1.logging.openshift.io,Kibana.v1.logging.openshift.io
-  name: {{ printf "%s-elasticsearch" (include "operator.operator-namespace" .) }}
+  name: {{ printf "%s-operatorgroup" (include "operator.operator-namespace" .) }}
   namespace: {{ include "operator.operator-namespace" . }}
 spec: {}
 {{- end -}}
