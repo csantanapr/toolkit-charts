@@ -13,7 +13,7 @@ nameOverride: ""
 olmNamespace: ""
 operatorNamespace: ""
 
-clusterType: ""
+clusterType: "ocp4"
 
 ocpCatalog:
   source: redhat-operators
