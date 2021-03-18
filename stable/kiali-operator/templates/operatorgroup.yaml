@@ -18,7 +18,7 @@ metadata:
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  annotation:
+  annotations:
     helm.sh/hook: pre-install
     helm.sh/hook-weight: "180"
     argocd.argoproj.io/sync-wave: "180"
