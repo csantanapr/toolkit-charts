@@ -1,0 +1,8 @@
+operatorNamespace: "openshift-operators-redhat"
+
+clusterType: "ocp4"
+
+ocpCatalog:
+  source: redhat-operators
+  channel: stable
+  name: jaeger-product

@@ -7,6 +7,8 @@ metadata:
     {{- include "operator.labels" . | nindent 4 }}
   annotations:
     helm.sh/hook: pre-install
+    helm.sh/hook-weight: "190"
+    argocd.argoproj.io/sync-wave: "190"
 spec:
   channel: {{ include "operator.channel" . | quote }}
   installPlanApproval: Automatic
