@@ -13,7 +13,130 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/argocd-config-0.16.0/argocd-config-0.16.0.tgz
     version: 0.16.0
+  cp-platform-navigator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-18T20:05:26.011444058Z"
+    description: A Helm chart for Kubernetes
+    digest: 73f5d02ae66f95b404b298c87a3658367dca0ba9d2b5110ee7b2a28368e423b5
+    name: cp-platform-navigator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/cp-platform-navigator-0.1.0/cp-platform-navigator-0.1.0.tgz
+    version: 0.1.0
+  elasticsearch-operator:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-03-18T20:05:26.108697512Z"
+    description: A Helm chart for Kubernetes
+    digest: 7e97cc7f7ffe0175376593ca226eee3e4b345444e0d973d3648e9b4b27d54c22
+    name: elasticsearch-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/elasticsearch-operator-0.4.0/elasticsearch-operator-0.4.0.tgz
+    version: 0.4.0
+  jaeger-operator:
+  - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2021-03-18T20:05:26.289270899Z"
+    description: A Helm chart to install Jaeger via the operator
+    digest: f168738d7e3442641c9c7763c1fa48894876c7a12a8d5ea6f2d2823fd641931c
+    name: jaeger-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/jaeger-operator-0.7.0/jaeger-operator-0.7.0.tgz
+    version: 0.7.0
+  kiali-operator:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-03-18T20:05:26.404421282Z"
+    description: A Helm chart for Kubernetes
+    digest: b1fb88b2d421f62edf9e3a6c2e50dcfb418fc2a4f0b8985de7ea304b732ffd86
+    name: kiali-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/kiali-operator-0.4.0/kiali-operator-0.4.0.tgz
+    version: 0.4.0
+  nexus-operator:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-03-18T20:05:26.598883892Z"
+    description: A Helm chart for Kubernetes
+    digest: f1ed3cc6f7535eb85aff4316df02c83b4da2e262cd3fc593350d3bec3b033b99
+    name: nexus-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/nexus-operator-0.5.0/nexus-operator-0.5.0.tgz
+    version: 0.5.0
+  ocs-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-18T20:05:26.700047552Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: 5370c53d1008c69f212e9af19d9bdb8db34d85ce28699d1ebdc54368a6435f7b
+    name: ocs-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/ocs-operator-0.1.0/ocs-operator-0.1.0.tgz
+    version: 0.1.0
+  refarch-infraconfig:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-18T20:05:26.840663276Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: e4dc15efaf729217fc8860e28688afa1579ae8d2121cfa43243b7739ad09d6c3
+    name: refarch-infraconfig
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/refarch-infraconfig-0.1.0/refarch-infraconfig-0.1.0.tgz
+    version: 0.1.0
+  refarch-machinesets:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-18T20:05:26.933849524Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: 3a764c1c15069e37357ad8d790f5a43c2375102123030620c89213ab3ff6f93e
+    name: refarch-machinesets
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/refarch-machinesets-0.1.0/refarch-machinesets-0.1.0.tgz
+    version: 0.1.0
+  service-mesh-operator:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-03-18T20:05:27.028532975Z"
+    description: A Helm chart for Kubernetes
+    digest: a9eef0622451d2daa595aa06ede9a19b41f55a2ee4b79b57b32b601a6343413b
+    name: service-mesh-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/service-mesh-operator-0.6.0/service-mesh-operator-0.6.0.tgz
+    version: 0.6.0
+  setup-job:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-18T20:05:27.121465122Z"
+    description: A Helm chart for Kubernetes
+    digest: ac586de52305479b326f47330b7502de409d79d23475b4e2775cdfa6295d04b4
+    name: setup-job
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/setup-job-0.3.0/setup-job-0.3.0.tgz
+    version: 0.3.0
   starter-kit:
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2021-03-18T20:05:27.218655477Z"
+    description: A Helm chart for Kubernetes
+    digest: 625ae802cdf44bf46c24bff8918145fe6ac37b363d94b6c680f2a80e8105b774
+    name: starter-kit
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/starter-kit-0.6.0/starter-kit-0.6.0.tgz
+    version: 0.6.0
   - apiVersion: v2
     appVersion: 1.18.0
     created: "2021-02-10T20:48:35.612432705Z"
@@ -24,4 +147,15 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/starter-kit-0.3.0/starter-kit-0.3.0.tgz
     version: 0.3.0
+  swaggereditor:
+  - apiVersion: v2
+    appVersion: v3.14.5
+    created: "2021-03-18T20:05:27.332755058Z"
+    description: A Helm chart for Kubernetes
+    digest: 0376063013f6e78cecd1c3793e36cb19a0155b24b01835488e0dc0c11200525f
+    name: swaggereditor
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/swaggereditor-2.0.0/swaggereditor-2.0.0.tgz
+    version: 2.0.0
 generated: "2021-02-10T20:48:35.412937252Z"
