@@ -24,7 +24,7 @@ operatorHub:
   channel: beta
   name: istio
 
-createInstance: true
+createInstance: false
 
 ocpSpec:
   addons:
