@@ -1,8 +1,29 @@
+{{- $namespace := (include "operator.operator-namespace" .) -}}
+{{- $mynamespace := (lookup "v1" "Namespace" "" $namespace ) }}
+{{- if not $mynamespace }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    helm.sh/hook: pre-install
+    helm.sh/hook-weight: "170"
+    argocd.argoproj.io/sync-wave: "170"
+  name: {{ $namespace }}
+---
+{{- end -}}
+{{- $name := (printf "%s-operatorgroup" $namespace) -}}
+{{- $myoperatorgroup := (lookup "operators.coreos.com/v1" "OperatorGroup" $namespace $name) }}
+{{- if not $myoperatorgroup }}
 {{- if (and .Values.operatorNamespace (ne (include "operator.default-operator-namespace" .) .Values.operatorNamespace)) -}}
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  name: {{ printf "%s-operatorgroup" (include "operator.operator-namespace" .) }}
-  namespace: {{ include "operator.operator-namespace" . }}
+  annotations:
+    helm.sh/hook: pre-install
+    helm.sh/hook-weight: "180"
+    argocd.argoproj.io/sync-wave: "180"
+  name: {{ $name }}
+  namespace: {{ $namespace }}
 spec: {}
+{{- end -}}
 {{- end -}}
