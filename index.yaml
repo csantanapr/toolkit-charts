@@ -58,6 +58,16 @@ entries:
   jaeger-operator:
   - apiVersion: v2
     appVersion: 1.19.0
+    created: "2021-03-19T02:47:12.130100872Z"
+    description: A Helm chart to install Jaeger via the operator
+    digest: ec16a0ad81dff0e9a504c65e6f1189602658b6918e376d2047f864601ff23059
+    name: jaeger-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/jaeger-operator-0.17.0/jaeger-operator-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    appVersion: 1.19.0
     created: "2021-03-19T02:32:00.533092628Z"
     description: A Helm chart to install Jaeger via the operator
     digest: 5b59cc963e1f5c455c23a696eebfc074fe25c550c147c014f6e2d7aeba6a347a
@@ -339,4 +349,4 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/test-elastic-0.1.0/test-elastic-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T02:32:00.533165129Z"
+generated: "2021-03-19T02:47:12.130173177Z"
