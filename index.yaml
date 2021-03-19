@@ -251,6 +251,16 @@ entries:
   test-elastic:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-03-19T01:54:10.147585687Z"
+    description: A Helm chart for Kubernetes
+    digest: 4c3aeecf410ca4584321f25836dcb8ec8679d5a2156f7b51c702bb173cffbdaf
+    name: test-elastic
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/test-elastic-0.3.0/test-elastic-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-03-19T01:51:02.233086937Z"
     description: A Helm chart for Kubernetes
     digest: 0851f4467936e1af5672df8017d3fc1db1719c191306b15a8e9d0860e1da6a59
@@ -269,4 +279,4 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/test-elastic-0.1.0/test-elastic-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T01:51:02.233298838Z"
+generated: "2021-03-19T01:54:10.147639092Z"
