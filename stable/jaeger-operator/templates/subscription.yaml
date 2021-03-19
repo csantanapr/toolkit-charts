@@ -9,8 +9,8 @@ metadata:
     helm.sh/hook-weight: "190"
     argocd.argoproj.io/sync-wave: "190"
 spec:
-  channel: {{ include "operator.channel" . | quote }}
+  channel: "stable"
   installPlanApproval: Automatic
-  name: {{ include "operator.catalog-name" . }}
-  source: {{ include "operator.source" . }}
-  sourceNamespace: {{ include "operator.olm-namespace" . }}
+  name: jaeger-product
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace
