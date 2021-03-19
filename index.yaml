@@ -248,4 +248,15 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/swaggereditor-2.0.0/swaggereditor-2.0.0.tgz
     version: 2.0.0
-generated: "2021-03-19T01:03:38.527057449Z"
+  test-elastic:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-19T01:42:07.371018446Z"
+    description: A Helm chart for Kubernetes
+    digest: 0dcacf910dde5866d5ea386f31f7731c1f86c1b3be27dd65ff8d7eafa31b9ace
+    name: test-elastic
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/test-elastic-0.1.0/test-elastic-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-19T01:42:07.37109815Z"
