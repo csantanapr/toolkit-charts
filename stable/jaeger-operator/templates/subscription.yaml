@@ -11,6 +11,6 @@ metadata:
 spec:
   channel: stable
   installPlanApproval: Automatic
-  name: elasticsearch-operator
+  name: jaeger-product
   source: redhat-operators
   sourceNamespace: openshift-marketplace
