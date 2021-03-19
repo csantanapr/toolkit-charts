@@ -1,3 +1,4 @@
+{{- $namespace := (include "operator.operator-namespace" .) -}}
 {{- $name := (printf "%s-operatorgroup" $namespace) -}}
 {{- $myoperatorgroup := (lookup "operators.coreos.com/v1" "OperatorGroup" $namespace $name) }}
 {{- if not $myoperatorgroup }}
