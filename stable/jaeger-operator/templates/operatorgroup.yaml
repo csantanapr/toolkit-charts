@@ -1,7 +1,5 @@
 {{- $namespace := (include "operator.operator-namespace" .) -}}
 {{- $name := (printf "%s-operatorgroup" $namespace) -}}
-{{- $myoperatorgroup := (lookup "operators.coreos.com/v1" "OperatorGroup" $namespace $name) }}
-{{- if not $myoperatorgroup }}
 {{- if (and .Values.operatorNamespace (ne (include "operator.default-operator-namespace" .) .Values.operatorNamespace)) -}}
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
@@ -13,5 +11,4 @@ metadata:
   name: {{ $name }}
   namespace: {{ $namespace }}
 spec: {}
-{{- end -}}
 {{- end -}}
