@@ -27,6 +27,16 @@ entries:
   elasticsearch-operator:
   - apiVersion: v2
     appVersion: 1.17.0
+    created: "2021-03-19T04:51:08.274465604Z"
+    description: A Helm chart for Kubernetes
+    digest: f9938b9c6b156901d684ded9f89cc12cae9ac60157b420033e302a21f03ac6cb
+    name: elasticsearch-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/elasticsearch-operator-0.7.0/elasticsearch-operator-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 1.17.0
     created: "2021-03-19T01:03:38.116902333Z"
     description: A Helm chart for Kubernetes
     digest: f0201abf403d32c9b92aac3d506690c8fd343936afa800668c46d11a0ab6573f
@@ -56,6 +66,16 @@ entries:
     - https://github.com/csantanapr/toolkit-charts/releases/download/elasticsearch-operator-0.4.0/elasticsearch-operator-0.4.0.tgz
     version: 0.4.0
   jaeger-operator:
+  - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2021-03-19T04:51:08.395271729Z"
+    description: A Helm chart to install Jaeger via the operator
+    digest: ae0bdacca2889673bc26473724ead1228014bf91a2776f8bcda3c10f91d06998
+    name: jaeger-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/jaeger-operator-0.23.0/jaeger-operator-0.23.0.tgz
+    version: 0.23.0
   - apiVersion: v2
     appVersion: 1.19.0
     created: "2021-03-19T04:17:14.036108344Z"
@@ -219,6 +239,16 @@ entries:
   kiali-operator:
   - apiVersion: v2
     appVersion: 1.17.0
+    created: "2021-03-19T04:51:08.54214795Z"
+    description: A Helm chart for Kubernetes
+    digest: aa37f905cbcaa1348156b2496ee6865920d532038d98b656a9464767e9ee9ef3
+    name: kiali-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/kiali-operator-0.7.0/kiali-operator-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 1.17.0
     created: "2021-03-19T01:03:38.388846825Z"
     description: A Helm chart for Kubernetes
     digest: 937634eff4c7f9df2abb9ae272b831db5c28d485a6e0904c13ee5e246e5d8347
@@ -295,6 +325,16 @@ entries:
     - https://github.com/csantanapr/toolkit-charts/releases/download/refarch-machinesets-0.1.0/refarch-machinesets-0.1.0.tgz
     version: 0.1.0
   service-mesh-operator:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-03-19T04:51:08.673487756Z"
+    description: A Helm chart for Kubernetes
+    digest: 8f011d30efd70275b19105ac3da609399fb5c34ec799346ecb80b8da759dc9cf
+    name: service-mesh-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/service-mesh-operator-0.9.0/service-mesh-operator-0.9.0.tgz
+    version: 0.9.0
   - apiVersion: v2
     appVersion: 1.17.0
     created: "2021-03-19T01:03:38.526991455Z"
@@ -399,4 +439,4 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/test-elastic-0.1.0/test-elastic-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T04:17:14.036344954Z"
+generated: "2021-03-19T04:51:08.673892067Z"
