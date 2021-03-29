@@ -27,6 +27,16 @@ entries:
   elasticsearch-operator:
   - apiVersion: v2
     appVersion: 1.17.0
+    created: "2021-03-29T21:07:15.308834214Z"
+    description: A Helm chart for Kubernetes
+    digest: c604cdc410b14a0b6278f4dbe65083e29a42b0382ece50bc1d0444021023669a
+    name: elasticsearch-operator
+    type: application
+    urls:
+    - https://github.com/csantanapr/toolkit-charts/releases/download/elasticsearch-operator-0.8.0/elasticsearch-operator-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 1.17.0
     created: "2021-03-19T04:51:08.274465604Z"
     description: A Helm chart for Kubernetes
     digest: f9938b9c6b156901d684ded9f89cc12cae9ac60157b420033e302a21f03ac6cb
@@ -439,4 +449,4 @@ entries:
     urls:
     - https://github.com/csantanapr/toolkit-charts/releases/download/test-elastic-0.1.0/test-elastic-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T04:51:08.673892067Z"
+generated: "2021-03-29T21:07:15.309292714Z"
